@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MY COIN POUCH</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/mainstyle.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<h1>MY COIN POUCH</h1>
+	</head>
+	<body>
+		<p id="ballanceDisplay">No ballance entered yet 
+		<button onclick="alertSetBallance()"> <a href="#trial"></a>Input Ballance</button></p>
+		<p>Come traveler, let me help you sort out your coin!</p>
+
+		<div id="ballance">
+			<h1 id="trial">Dynamic Text Example</h1>
+  
+			<label for="userInputBallance">Input your coin: </label>
+			<input type="number" id="userInputBallance">
+			<button onclick="setBallance()">Confirm coin</button>
+			
+			<p id="ballanceDisplay">No ballance entered yet 
+				<button onclick="alertSetBallance()" href="#ballance">Input Ballance</button>
+			</p>
+		</div>
+
+		<div id="rent">
+			<p id="rentAmount"></p>
+			<img id="imageRent" src="/images/castle realistic.png" style="width: 30%">
+			<button onclick="document.getElementById('imageRent').src='/images/castle upgrade.png'">Pay Rent</button>
+			<button onclick="document.getElementById('imageRent').src='/images/castle realistic.png'">Cancel</button>
+		</div>
+		
+		<script src="/JS/wallet.js">
+		</script>
+	</body>
+	<footer>
+		<nav>
+			<ul>
+			  <a href="#">Contact</a>
+			</ul>
+		  </nav>
+	</footer>
+</html>

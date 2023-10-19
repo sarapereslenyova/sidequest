@@ -1,0 +1,48 @@
+body {
+	background-color: rgb(48, 27, 76);
+}
+
+title {
+	text-align: center;
+	font: 1.2rem "Garamond", serif;
+	color: beige;
+}
+
+h1 {
+	font: 1.2rem "Garamond", serif;
+	font-size: 40px;
+	color: beige;
+	text-align: center;
+	position: sticky;
+	top: 20px;
+	padding: 50px;
+}
+
+p {
+	top: 50px;
+	text-align: center;
+	font: 1.2rem "Garamond", serif;
+	font-size: 80px;
+	color: beige;
+}
+
+button {
+	font: 1.2rem "Garamond", serif;
+	font-size: 40px;
+	padding: 20px;
+	background-color: rgb(222, 186, 252);
+	outline: auto;
+	outline-color: rgb(238, 219, 247);
+	outline-width: 5px;
+}
+
+image {
+	border: 10px solid red;
+}
+
+label {
+	font: 1.2rem "Garamond", serif;
+	font-size: 40px;
+	padding-right: 20px;
+	color: beige;
+}
